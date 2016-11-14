@@ -36,8 +36,8 @@ app.get('/users', user.list);
 var net = require('net');
 
 
-var HOST = 'https://mscloudtest.herokuapp.com/'; // parameterize the IP of the Listen
-var PORT = process.env.PORT || 3000; // TCP LISTEN port
+var HOST = '127.0.0.1'; // parameterize the IP of the Listen
+var PORT = process.env.PORT || 5000; // TCP LISTEN port
 
 
 // Create an instance of the Server and waits for a conexão
